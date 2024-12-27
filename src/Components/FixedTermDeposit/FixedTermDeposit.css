@@ -1,0 +1,23 @@
+/* Aseguramos que haya espacio superior en el contenedor de la página */
+.grid-container {
+  width: 70vw;
+  justify-content: center;
+  background-color: #ffffff;
+  text-align: center;
+  border-radius: 25px;
+  overflow: hidden;
+  margin-bottom: 15px; /* Añadir espacio inferior */
+}
+
+/* Agregar más separación entre el formulario y el contenido */
+.grid-item {
+  border-right: 1px solid #ddd;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+/* Agregar un margen al formulario para darle espacio respecto al header */
+form {
+  margin-top: 20px;
+}
